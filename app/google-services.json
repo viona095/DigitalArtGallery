@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "150755802640",
+    "project_id": "digital-art-gallery-3b35d",
+    "storage_bucket": "digital-art-gallery-3b35d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150755802640:android:2c493415f5fe6e77c49495",
+        "android_client_info": {
+          "package_name": "com.example.digitalartgallery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_wsf4dkbmRH4QtwqKLAkIeuH1G0Q91z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
