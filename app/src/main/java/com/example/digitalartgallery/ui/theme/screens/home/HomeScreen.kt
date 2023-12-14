@@ -57,70 +57,7 @@ fun HomeScreen(navController: NavController){
             Text(text = "view products")
         }
     }
-    Text(text = "Dashboard Design",
-        fontSize = 40.sp,
-        modifier = Modifier.padding(start = 20.dp, top = 20.dp, bottom = 20.dp),
-        color = Color.White,
-        fontWeight = FontWeight.Bold
-    )
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(16.dp)
-            .background(Color.White)
-    ) {
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(top = 10.dp, bottom = 20.dp),
-            horizontalArrangement = Arrangement.SpaceEvenly)
-        {
-            Card (modifier = Modifier
-                .width(150.dp)
-                .height(200.dp),
-                elevation = CardDefaults
-                    .cardElevation(defaultElevation = 10.dp),
-                shape = RoundedCornerShape(10.dp),
-                colors = CardDefaults.cardColors(
-                    containerColor = Color.Green
-                )
-
-            ){
-                Column {
-                    Column (
-                        modifier = Modifier.fillMaxSize(),
-                        horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.SpaceEvenly
-                    ){
-                        Column (
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(130.dp),
-                            horizontalAlignment = Alignment.CenterHorizontally,
-                            verticalArrangement = Arrangement.Center
-                        ){
-                            Icon(
-                                painter = painterResource(id =com.example.digitalartgallery.R.drawable.baseline_phone_android_24 ) ,
-                                contentDescription = "My icon",
-                                tint = Color.White
-                            )
-                        }
-                        Column(modifier = Modifier
-                            .background(Color.White)
-                            .fillMaxWidth()
-                            .height(70.dp),
-                            horizontalAlignment = Alignment.CenterHorizontally,
-                            verticalArrangement = Arrangement.Center
-                        ) {
-                            Text(text = "Mobile")
-                            Divider()
-                            Text(text = "New range of mobile")
-                        }
-                    }
-
-                }
-            }
-
+   
 
 @Composable
 @Preview(showBackground = true)
